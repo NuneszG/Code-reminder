@@ -17,7 +17,7 @@ Code reminder
                                 - content 
                                 - date
 
-                - create connection between MySQL and Django
+                - create connection between PostgreSQL and Django
                     - connection
 
 
@@ -36,6 +36,6 @@ Code reminder
                                     - dockerfile
                                     - docker compose
                                             - create image application
-                                            - create image MySQL with docker-compose
+                                            - create image PostgreSQL with docker-compose
 
                                             - up container of the application
