@@ -1,0 +1,41 @@
+Code reminder
+    -start django project
+        - organize stucture files 
+            - create frontend 
+
+                FOLDER
+                    - create folder model
+                        - title
+                        - description
+                        - category
+
+                        
+                        REMINDER FILE
+                            - create content model
+                                - title
+                                - description 
+                                - content 
+                                - date
+
+                - create connection between MySQL and Django
+                    - connection
+
+
+                - create app to reminder codes
+                    - organize crud urls to 
+
+                        FOLDER       REMINDER FILES
+                            get all     get all
+                            create      create
+                            edit        edit
+                            update      update
+                            delete      delete 
+
+
+                                - insert Docker to create and manage images and containers of the application
+                                    - dockerfile
+                                    - docker compose
+                                            - create image application
+                                            - create image MySQL with docker-compose
+
+                                            - up container of the application
