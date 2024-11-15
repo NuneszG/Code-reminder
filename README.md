@@ -18,10 +18,11 @@ para deixar salvo determinado assunto que elas queiram guardar e reve-los depois
 - PostgreSQL 
 - Bootstrap 
 
-<div style="align:center" >
-  <img src="/assets/application/Captura de ecrã 2024-11-15 182938.png" style="width: 400px">
-  <img src="/assets/application/Captura de ecrã 2024-11-15 170528.png" style="width: 400px">
-  <img src="/assets/application/Captura de ecrã 2024-11-15 170845.png" style="width: 400px">
+<div style="display: grid; grid-template-columns: repeat(2, 400px); gap: 10px;">
+  <img src="/assets/application/Captura de ecrã 2024-11-15 185342.png" style="width: 400px">
+  <img src="/assets/application/Captura de ecrã 2024-11-15 185424.png" style="width: 400px">
+  <img src="/assets/application/Captura de ecrã 2024-11-15 185440.png" style="width: 400px">
+  <img src="/assets/application/Captura de ecrã 2024-11-15 185454.png" style="width: 400px">
 </div>
 
 ### Clone repository
