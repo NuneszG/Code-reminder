@@ -64,7 +64,7 @@ def DeleteFolder(request, id):
     folder = Folder.objects.get(id=id)
     folder.delete()
 
-    return redirect('folders')
+    return redirect('home')
 
 
 # Routes to files
@@ -80,4 +80,34 @@ def CreateFile(request):
         content = content 
     )
     
+    return redirect('folders')
+
+
+def File(request, id):
+    file = Reminder.objects.get(id=id)
+    folder = Folder.objects.all()
+    return render(request, './files/file.html', {'file': file, 'folder': folder})
+
+
+def DeleteFile(request, id):
+    file = Reminder.objects.get(id=id)
+    file.delete()
+
+    return redirect('folders')
+
+
+def EditFile(request, id):
+    file = Reminder.objects.get(id=id)
+    return render(request, './files/update.html', {'file': file})
+
+def UpdateFile(request, id):
+    file = Reminder.objects.get(id=id)
+    
+    title = request.POST.get('title')
+    content = request.POST.get('content')
+
+    file.title = title
+    file.content = content
+    file.save()
+
     return redirect('folders')

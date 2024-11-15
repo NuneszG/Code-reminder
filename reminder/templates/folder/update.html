@@ -2,7 +2,7 @@
     {% block content %}
         <div class="text-center mt-5">
             <h4 class="fw-light mb-4">Update {{ folder.title }}</h4>
-            <form action="{% url 'update' folder.id %}" method="POST" class="col-2 mx-auto">{% csrf_token %}
+            <form action="{% url 'update-folder' folder.id %}" method="POST" class="col-2 mx-auto">{% csrf_token %}
                 <p>
                     <label for="title">Title</label> <br>
                     <input type="text" class="bg-black mt-2 text-white form-control" name="title" id="title" 

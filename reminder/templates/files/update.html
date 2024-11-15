@@ -1,20 +1,20 @@
 {% extends 'base.html' %}
     {% block content %}
         <div class="text-center mt-5">
-            <h4 class="fw-light mb-4">Create a file</h4>
-            <form action="{% url 'create-file' %}" method="POST" class="col-2 mx-auto">{% csrf_token %}
+            <h4 class="fw-light mb-4">Update {{ file.title }}</h4>
+            <form action="{% url 'update-file' file.id %}" method="POST" class="col-2 mx-auto">{% csrf_token %}
                 <p>
                     <label for="title">Title</label> <br>
                     <input type="text" class="bg-black mt-2 text-white form-control" name="title" id="title" 
-                    placeholder="title file" required>
+                    required value="{{ file.title }}">
                 </p>
                 <p>
                     <label for="content">Content</label> <br>
                     <input type="text" class="bg-black mt-2 text-white form-control" name="content" id="content" 
-                    placeholder="type something.." required>
+                    required value="{{ file.content }}">
                 </p>
 
-                <input type="submit" value="Save" class="btn btn-primary mt-3">
+                <input type="submit" value="Update" class="btn btn-primary mt-3">
             </form>            
 
                 <a href="{% url 'folders' %}" class="btn mt-5 text-white">Back to home</a>  
