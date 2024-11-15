@@ -17,8 +17,8 @@ para deixar salvo determinado assunto que elas queiram guardar e reve-los depois
 - Bootstrap 
 
 <img src="/assets/application/Captura de ecrã 2024-11-15 170507.png">
-![alt text](<assets/application/Captura de ecrã 2024-11-15 170528.png>)
-![alt text](<assets/application/Captura de ecrã 2024-11-15 170845.png>)
+<img src="/assets/application/Captura de ecrã 2024-11-15 170528.png">
+<img src="/assets/application/Captura de ecrã 2024-11-15 170845.png">
 
 ### Clone repository
 ```
