@@ -20,7 +20,7 @@ para deixar salvo determinado assunto que elas queiram guardar e reve-los depois
     <img src="/assets/application/Captura de ecrã 2024-11-15 170507.png" style="width: 376px">
     <img src="/assets/application/Captura de ecrã 2024-11-15 182938.png" style="width: 447px">
     <img src="/assets/application/Captura de ecrã 2024-11-15 170528.png" style="width: 427px">
-    <img src="/assets/application/Captura de ecrã 2024-11-15 170845.png" style="width: 437px">
+    <img src="/assets/application/Captura de ecrã 2024-11-15 170845.png" style="width: 427px">
 </div
 
 ### Clone repository
