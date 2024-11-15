@@ -13,7 +13,6 @@ Code reminder
                         REMINDER FILE
                             - create content model
                                 - title
-                                - description 
                                 - content 
                                 - date
 

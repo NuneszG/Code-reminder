@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+    {% block content %}
+        <div class="text-center mt-4">
+            <h4 class="fw-light mb-4">Folder {{ folder.title }}</h4>
+            <p>
+                <strong>
+                    {{ folder.category }}
+                </strong> <br>
+                {{ folder.description }}
+            </p>
+        
+            
+        <div class="text-center mt-5 rounded py-3 border border-gray col-4 mx-auto">
+
+            {% if files %}
+                {% for file in files %}
+                    <a href="#" class="text-decoration-none btn mb-1 text-white">{{ file.title }}</a> <br>
+                {% endfor %}
+            {% else %}
+                <h4>You don't have any file yet..</h4>
+            {% endif %}
+
+            <div class="d-flex px-2 mt-2">
+                <a href="{% url 'edit' folder.id %}" class="px-1 text-decoration-none text-success">Edit folder</a>
+                <a href="{% url 'delete-folder' folder.id %}" class="px-1 text-decoration-none text-danger">Delete folder</a>
+                <a href="{% url 'form-file' %}" class="px-1 text-decoration-none text-primary">New file</a>
+            </div>
+            
+        </div>
+
+            <a href="{% url 'folders' %}" class="btn mt-5 text-white">Back to home</a>  
+        </div>
+    {% endblock %}

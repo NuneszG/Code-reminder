@@ -1,22 +1,22 @@
 {% extends 'base.html' %}
     {% block content %}
         <div class="text-center mt-5">
-            <h4 class="fw-light mb-4">Create a new folder to save your data</h4>
-            <form action="{% url 'create' %}" method="POST" class="col-2 mx-auto">{% csrf_token %}
+            <h4 class="fw-light mb-4">Update {{ folder.title }}</h4>
+            <form action="{% url 'update' folder.id %}" method="POST" class="col-2 mx-auto">{% csrf_token %}
                 <p>
                     <label for="title">Title</label> <br>
                     <input type="text" class="bg-black mt-2 text-white form-control" name="title" id="title" 
-                    placeholder="title folder" required>
+                    required value="{{ folder.title }}">
                 </p>
                 <p>
                     <label for="category">Category</label> <br>
                     <input type="text" class="bg-black mt-2 text-white form-control" name="category" id="category" 
-                    placeholder="category folder" required>
+                    required value="{{ folder.category }}">
                 </p>
                 <p>
                     <label for="description">Description</label> <br>
                     <input type="text" class="bg-black mt-2 text-white form-control" name="description" id="description" 
-                    placeholder="give a description" required>
+                    required value="{{ folder.description }}">
                 </p>
 
                 <input type="submit" value="Create folder" class="btn btn-primary mt-3">

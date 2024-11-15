@@ -4,7 +4,7 @@
             <h4 class="fw-light mb-4">Your folders</h4>
                <div class="rounded py-2 border border-gray col-3 mx-auto">
                     {% for folders in folders %}
-                        <a href="#" class="btn btn-secondary mt-2 mb-2">{{ folders.title }}</a> <br>
+                        <a href="{% url 'folder' folders.id %}" class="btn btn-secondary mt-2 mb-2">{{ folders.title }}</a> <br>
                     {% endfor %}
                </div>
             
