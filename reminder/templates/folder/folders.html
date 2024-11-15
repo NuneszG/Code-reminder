@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+    {% block content %}
+        <div class="text-center mt-5">
+            <h4 class="fw-light mb-4">Your folders</h4>
+               <div class="rounded py-2 border border-gray col-3 mx-auto">
+                    {% for folders in folders %}
+                        <a href="#" class="btn btn-secondary mt-2 mb-2">{{ folders.title }}</a> <br>
+                    {% endfor %}
+               </div>
+            
+            <a href="{% url 'home' %}" class="btn mt-5 text-white">Back to home</a>  
+        </div>
+    {% endblock %}

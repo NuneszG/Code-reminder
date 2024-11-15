@@ -1,4 +1,27 @@
 {% extends 'base.html' %}
+    {% load static %}
     {% block content %}
-        <h3>Hello, Django.</h3>
+        <div class="text-center mt-5"> 
+            <h3 class="mb-4">Code Reminder</h3>
+            <img src="{% static '/media/Content Media Folder.png' %}">
+            <h5 class="mt-4">
+                Create places to store your tasks <br>
+                and access them whenever you want.
+            </h5>
+
+            <a href="{% url 'form' %}" class="btn text-white mt-4">Create folder</a> <br>
+
+            {% if folder %}
+                <a href="{% url 'folders' %}" class="btn text-white mt-1">Folders</a>
+            {% endif %}
+
+            <div class="d-flex align-items-center flex-column" style="height: 200px;">
+                <div class="mt-auto text-secondary">
+                    website desenvolvido por 
+                        <a target="_blank" href="https://www.linkedin.com/in/guilherme-nunes-a89827274/" 
+                            class="text-secondary">Guilherme Nunes
+                        </a>
+                </div>
+            </div> 
+        </div>
     {% endblock %}
