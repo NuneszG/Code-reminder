@@ -1,8 +1,10 @@
-# Eletronic appliance System
+# Code Reminder
 
 O Code Reminder é um website de organização para o usuário.
 No qual o usuário pode criar pastas com determinado titulo e categoria, e dentro delas podendo criar arquivos
 para deixar salvo determinado assunto que elas queiram guardar e reve-los depois.
+
+<img src="/assets/application/Captura de ecrã 2024-11-15 170507.png" style="width: 600px">
 
 ### Features
 - create new folders to organize your data into files
@@ -16,9 +18,11 @@ para deixar salvo determinado assunto que elas queiram guardar e reve-los depois
 - PostgreSQL 
 - Bootstrap 
 
-<img src="/assets/application/Captura de ecrã 2024-11-15 170507.png">
-<img src="/assets/application/Captura de ecrã 2024-11-15 170528.png">
-<img src="/assets/application/Captura de ecrã 2024-11-15 170845.png">
+### Create folders
+  <img src="/assets/application/Captura de ecrã 2024-11-15 170528.png" style="width: 600px">
+
+### files inserted in folders
+<img src="/assets/application/Captura de ecrã 2024-11-15 170845.png" style="width: 600px">
 
 ### Clone repository
 ```
