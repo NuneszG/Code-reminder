@@ -2,7 +2,7 @@
 
 O Code Reminder é um website de organização para o usuário.
 No qual o usuário pode criar pastas com determinado titulo e categoria, e dentro delas podendo criar arquivos
-para deixar salvo determinado assunto que elas queiram guardar e reve-los depois.
+para deixar salvo determinado assunto que eles queiram guardar e reve-los depois.
 
 ### Features
 - crie novas pastas para organizar seus dados nelas 
