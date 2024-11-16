@@ -5,10 +5,10 @@ No qual o usuário pode criar pastas com determinado titulo e categoria, e dentr
 para deixar salvo determinado assunto que elas queiram guardar e reve-los depois.
 
 ### Features
-- create new folders to organize your data into files
-- create a new file and save your data into it 
-- update both your folder and files 
-- delete any folder or files you want 
+- crie novas pastas para organizar seus dados nelas 
+- cie um novo arquivo e salve seus dados  
+- atualize tanto suas pastas quanto seus arquivos 
+- delete qualquer pasta ou arquivo que desejar
 
 ### Technologies used
 - Python
