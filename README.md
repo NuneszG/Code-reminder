@@ -6,13 +6,14 @@ para deixar salvo determinado assunto que eles queiram guardar e reve-los depois
 
 ### Features
 - crie novas pastas para organizar seus dados nelas 
-- cie um novo arquivo e salve seus dados  
+- crie um novo arquivo e salve seus dados  
 - atualize tanto suas pastas quanto seus arquivos 
 - delete qualquer pasta ou arquivo que desejar
 
 ### Technologies used
 - Python
 - Django 
+- Docker
 - PostgreSQL 
 - Bootstrap 
 
